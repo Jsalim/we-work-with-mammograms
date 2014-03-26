@@ -158,8 +158,23 @@
 
     <legend>Estudios del Paciente</legend>
 
-
+<div class="row">
     <div class="col-md-12 col-xs-12"> 
+
+ <div class="col-md-4 col-xs-12 pull-right">
+          <div class="col-xs-12">
+            <p>
+              <a href="@routes.Application.newStudy(id)" class="btn btn-primary btn-md btn-block">Nuevo Estudio</a>
+            </p>
+          </div>
+          <div class="col-xs-12">
+             <p>
+              <a href="" class="btn btn-success btn-md btn-block">Enviar al Sistema Diagnóstico</a>
+            </p>
+        </div>
+</div>
+
+
       <h2>2 de febrero de 2014</h2>
       <a href="@routes.Application.study(id, 20)">Ver detalle de estudio</a>
       <div class="patient-study-summary" style="margin-top: 10px">
@@ -186,10 +201,9 @@
       </div>
     </div><!-- end of .col-md-6 -->
 
-    <center>
-      <button type="button" class="btn btn-success">Enviar al sistema de diagnóstico</button>
-    </center>
 
+        </div>
+</div>
   </div><!-- /.container -->
 }
 
