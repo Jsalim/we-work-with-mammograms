@@ -46,9 +46,13 @@ public class Application extends Controller {
     public static Result sharePatient(Long id) {
       return ok(sharePatient.render(id, "Juanito"));
     }
-
+ 
     public static Result contact(){
         return ok(contact.render("Juanito"));
     }
+
+    public static Result settings(Long id){
+        return ok(settings.render(id, "Juanito"));
+    } 
 
 }

@@ -20,6 +20,9 @@ GET     /staff/patient/new                controllers.Application.newPatient()
 # Contact
 GET     /contact                          controllers.Application.contact()
 
+# Settings
+GET     /settings/:id                     controllers.Application.settings(id: Long)
+
 # Show patient
 GET     /staff/patient/:id                controllers.Application.showPatient(id: Long)
 
