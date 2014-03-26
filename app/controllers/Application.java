@@ -51,6 +51,9 @@ public class Application extends Controller {
         return ok(showStaff.render(id, "Juanito"));
     }
  
+    public static Result editStaff(Long id) {
+        return ok(editStaff.render(id, "Juanito"));
+    }
     public static Result contact(){
         return ok(contact.render("Juanito"));
     }

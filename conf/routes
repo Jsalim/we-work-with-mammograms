@@ -33,6 +33,8 @@ GET     /staff/patient/:id/edit           controllers.Application.editPatient(id
 # Show staff
 GET     /admin/staff/:id                controllers.Application.showStaff(id: Long)
 
+# Edit patient
+GET     /admin/staff/:id/edit           controllers.Application.editStaff(id: Long)
 
 # Edit settings
 GET     /settings                         controllers.Application.settings()
